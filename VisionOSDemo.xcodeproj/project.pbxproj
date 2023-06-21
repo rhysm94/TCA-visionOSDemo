@@ -21,6 +21,7 @@
 		917355D22A43AC2300103131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		917355D42A43AC2300103131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		917355D72A43AC2300103131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		917355E22A43ACD200103131 /* VisionOSApp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = VisionOSApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		917355C02A43AC2300103131 = {
 			isa = PBXGroup;
 			children = (
+				917355E22A43ACD200103131 /* VisionOSApp */,
 				917355CB2A43AC2300103131 /* VisionOSDemoApp */,
 				917355CC2A43AC2300103131 /* Packages */,
 				917355CA2A43AC2300103131 /* Products */,
