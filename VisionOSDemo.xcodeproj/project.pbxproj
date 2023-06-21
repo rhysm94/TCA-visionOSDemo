@@ -38,7 +38,7 @@
 		917355C02A43AC2300103131 = {
 			isa = PBXGroup;
 			children = (
-				917355CB2A43AC2300103131 /* VisionOSDemo */,
+				917355CB2A43AC2300103131 /* VisionOSDemoApp */,
 				917355CC2A43AC2300103131 /* Packages */,
 				917355CA2A43AC2300103131 /* Products */,
 			);
@@ -52,7 +52,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		917355CB2A43AC2300103131 /* VisionOSDemo */ = {
+		917355CB2A43AC2300103131 /* VisionOSDemoApp */ = {
 			isa = PBXGroup;
 			children = (
 				917355D02A43AC2300103131 /* VisionOSDemoApp.swift */,
@@ -60,7 +60,7 @@
 				917355D42A43AC2300103131 /* Assets.xcassets */,
 				917355D62A43AC2300103131 /* Preview Content */,
 			);
-			path = VisionOSDemo;
+			path = VisionOSDemoApp;
 			sourceTree = "<group>";
 		};
 		917355CC2A43AC2300103131 /* Packages */ = {
@@ -286,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSDemoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = RP3TV2HAFG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSDemoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = RP3TV2HAFG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
