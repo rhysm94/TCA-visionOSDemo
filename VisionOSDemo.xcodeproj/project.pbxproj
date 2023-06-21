@@ -12,6 +12,7 @@
 		917355D32A43AC2300103131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917355D22A43AC2300103131 /* ContentView.swift */; };
 		917355D52A43AC2300103131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917355D42A43AC2300103131 /* Assets.xcassets */; };
 		917355D82A43AC2300103131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917355D72A43AC2300103131 /* Preview Assets.xcassets */; };
+		917355E52A43AFFD00103131 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 917355E42A43AFFD00103131 /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				917355CF2A43AC2300103131 /* RealityKitContent in Frameworks */,
+				917355E52A43AFFD00103131 /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +45,7 @@
 				917355CB2A43AC2300103131 /* VisionOSDemoApp */,
 				917355CC2A43AC2300103131 /* Packages */,
 				917355CA2A43AC2300103131 /* Products */,
+				917355E32A43AFFD00103131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +84,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		917355E32A43AFFD00103131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +109,7 @@
 			name = VisionOSDemo;
 			packageProductDependencies = (
 				917355CE2A43AC2300103131 /* RealityKitContent */,
+				917355E42A43AFFD00103131 /* AppFeature */,
 			);
 			productName = VisionOSDemo;
 			productReference = 917355C92A43AC2300103131 /* VisionOSDemo.app */;
@@ -300,7 +311,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rhysmorgan.VisionOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -326,7 +340,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rhysmorgan.VisionOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -360,6 +377,10 @@
 		917355CE2A43AC2300103131 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		917355E42A43AFFD00103131 /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

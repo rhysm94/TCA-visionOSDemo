@@ -10,15 +10,18 @@ import ComposableArchitecture
 public struct AppFeature: ReducerProtocol {
   public struct State: Equatable {
     public var counter: Int
+    fileprivate let initialCounter: Int
 
-    public init(counter: Int) {
+    public init(counter: Int = 0) {
       self.counter = counter
+      self.initialCounter = counter
     }
   }
 
   public enum Action {
     case increment
     case decrement
+    case reset
   }
 
   public init() {}
@@ -26,6 +29,10 @@ public struct AppFeature: ReducerProtocol {
   public var body: some ReducerProtocolOf<Self> {
     Reduce { state, action in
       switch action {
+      case .reset:
+        state.counter = state.initialCounter
+        return .none
+
       case .increment:
         state.counter += 1
         return .none
