@@ -17,7 +17,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/rhysm94/swift-composable-architecture", branch: "fix-for-xros")
+    .package(url: "https://github.com/pointfreeco/swift-composable-architecture", branch: "prerelease/1.0")
   ],
   targets: [
     // Targets are the basic building blocks of a package, defining a module or a test suite.

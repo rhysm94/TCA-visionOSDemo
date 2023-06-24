@@ -7,7 +7,7 @@
 
 import ComposableArchitecture
 
-public struct AppFeature: ReducerProtocol {
+public struct AppFeature: Reducer {
   public struct State: Equatable {
     public var counter: Int
     fileprivate let initialCounter: Int
@@ -26,7 +26,7 @@ public struct AppFeature: ReducerProtocol {
 
   public init() {}
 
-  public var body: some ReducerProtocolOf<Self> {
+  public var body: some ReducerOf<Self> {
     Reduce { state, action in
       switch action {
       case .reset:
